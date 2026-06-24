@@ -1,0 +1,55 @@
+Momoamo palette reference
+
+Use the exact colors below from the Momoamo homepage color capture. Do not use the earlier invented peach/guava palette.
+
+Core palette:
+
+| Color name shown | RGB | Hex |
+|---|---:|---:|
+| darkslategray | rgb(46, 62, 36) | #2E3E24 |
+| gainsboro | rgb(227, 221, 212) | #E3DDD4 |
+| gray | rgb(145, 139, 114) | #918B72 |
+| darkgray | rgb(174, 179, 163) | #AEB3A3 |
+| gray | rgb(119, 127, 106) | #777F6A |
+| yellowgreen | rgb(221, 249, 81) | #DDF951 |
+| dimgray | rgb(101, 103, 78) | #65674E |
+| darkgray | rgb(153, 159, 174) | #999FAE |
+| dimgray | rgb(104, 110, 107) | #686E6B |
+| khaki | rgb(219, 232, 122) | #DBE87A |
+| rosybrown | rgb(210, 161, 158) | #D2A19E |
+| sienna | rgb(196, 108, 84) | #C46C54 |
+
+Recommended Mobifone application:
+
+- Main background: #E3DDD4
+- Main hero panel: #2E3E24
+- Secondary panels: #AEB3A3 or #918B72
+- Primary text on light backgrounds: #2E3E24
+- Primary text on dark backgrounds: #E3DDD4
+- Mobifone red replacement/accent: #C46C54
+- Weekend energy accent: #DDF951
+- Softer highlight: #DBE87A
+- Muted supporting copy: #65674E
+- Secondary warm accent: #D2A19E
+
+Design direction:
+
+The opening should feel more Momoamo-inspired: muted, earthy, editorial, and slightly strange, with one sharp acid accent. Avoid the current red-and-black warning look. Use dark olive as the premium anchor, warm stone as the base, sienna/clay as the Mobifone-adjacent brand warmth, and acid yellowgreen as the weekend spark.
+
+CSS tokens:
+
+```css
+:root {
+  --color-olive-dark: #2E3E24;
+  --color-stone: #E3DDD4;
+  --color-warm-gray: #918B72;
+  --color-sage-gray: #AEB3A3;
+  --color-olive-gray: #777F6A;
+  --color-acid-lime: #DDF951;
+  --color-muted-olive: #65674E;
+  --color-blue-gray: #999FAE;
+  --color-cool-gray: #686E6B;
+  --color-soft-lime: #DBE87A;
+  --color-dusty-rose: #D2A19E;
+  --color-clay-red: #C46C54;
+}
